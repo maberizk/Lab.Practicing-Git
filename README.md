@@ -25,3 +25,12 @@ git push -u origin main
     git branch -M main renames our default branch to main instead of master (the previous default).
 
     git push -u origin main pushes the local changes on our repo over to Github. Our two repositories should now be in sync.
+
+
+11. to add new changes: 
+
+    git config user.name 
+    git add .
+    git status
+    git commit -m "changes readme text"
+    git push
