@@ -34,3 +34,28 @@ git push -u origin main
     git status
     git commit -m "changes readme text"
     git push
+
+
+
+
+
+
+fork/ clone / share with collaborator 
+
+GitHub remote SSH URL to your partner. You then add their remote with the following command:
+
+git remote add partner-name partner-repo-ssh-url
+To confirm that everything is configured correctly, let's check our remotes again.
+In your terminal run the following command:
+
+git remote -v 
+Now both your remote named as origin and your partner's remote with the name you gave it when you added their remote should be displayed.
+Review the terminal output below:
+
+~/code/PairExercise.GitWorkflow > git remote add matti git@github.com:mbarzilai/PairExercise.GitWorkflow.git ~/code/PairExercise.GitWorkflow > git remote -v matti git@github.com:mbarzilai/PairExercise.GitWorkflow.git (fetch) matti git@github.com:fterdal/PairExercise.GitWorkflow.git (push) origin git@github.com:fterdal/PairExercise.GitWorkflow.git (fetch) origin git@github.com:fterdal/PairExercise.GitWorkflow.git (push)
+
+
+
+
+Branches - 
+git checkout <name>; git commit 
